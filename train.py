@@ -34,7 +34,7 @@ for keyword in keyword_list:
         text = re.sub(r"\[[0-9]+\]", "", text)
         corpus.append(text)
         
-print(*corpus, sep="\n", file=codecs.open("data/wiki.txt", "w", "utf-8"))
+print(*corpus, sep="\n", file=codecs.open("wiki.txt", "w", "utf-8"))
 
 
 #モデルの学習
