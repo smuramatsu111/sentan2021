@@ -1,3 +1,4 @@
+#訓練用
 import codecs
 import re
 import requests
