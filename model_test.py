@@ -1,3 +1,4 @@
+#検証用
 import sentencepiece as spm
 
 sp = spm.SentencePieceProcessor()
