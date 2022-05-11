@@ -1,4 +1,4 @@
-#訓練用
+#訓練用です。
 import codecs
 import re
 import requests
