@@ -1,9 +1,9 @@
 # sentan2021
 
 
-lxml
-sentencepiece
-requests
+lxml,
+sentencepiece,
+requests,
 bs4
 のインストールが必要です。
 
