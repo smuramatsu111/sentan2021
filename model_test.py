@@ -1,4 +1,4 @@
-#検証用
+#検証用です。
 import sentencepiece as spm
 
 sp = spm.SentencePieceProcessor()
