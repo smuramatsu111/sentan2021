@@ -1,5 +1,6 @@
 ##必要パッケージをpip install -r requirements.txtで読み込み
 
+
 beautifulsoup4==4.11.1
 bs4==0.0.1
 certifi==2021.10.8
