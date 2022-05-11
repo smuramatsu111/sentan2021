@@ -42,13 +42,13 @@ print(*corpus, sep="\n", file=codecs.open("wiki.txt", "w", "utf-8"))
 import sentencepiece as spm
 
 spm.SentencePieceTrainer.Train(
-    '--input=data/wiki.txt, --model_prefix=model/sentencepiece --character_coverage=0.9995 --vocab_size=8000 --pad_id=3'
+    '--input=wiki.txt, --model_prefix=sentencepiece --character_coverage=0.9995 --vocab_size=8000 --pad_id=3'
 )
 
 #以下簡単な検証
 
 sp = spm.SentencePieceProcessor()
-sp.Load("model/sentencepiece.model")
+sp.Load("sentencepiece.model")
 print("70行目のテキスト：" + corpus[70]+"\n")
 
 print("テキストを単語に分割")
